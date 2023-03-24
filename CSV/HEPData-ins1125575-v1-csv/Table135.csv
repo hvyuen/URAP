@@ -1,0 +1,35 @@
+#: table_doi: 10.17182/hepdata.58995.v1/t135
+#: name: Table 135
+#: description: Distribution of the variable SUM(PT) in the AWAY and TRANSVERSE regions for R=0.4 and jet PT in the range 50 to 100 GeV.
+
+#: data_file: Table135.yaml
+#: keyword reactions: P P --> JET(S) X | P P --> CHARGED X
+#: keyword observables: DN/DSUM(PT)
+#: keyword phrases: Inclusive | Single Differential Distribution | Proton-Proton Scattering | Jet Production
+#: keyword cmenergies: 7000.0
+#: PT(C=JET) [GeV],,,50.0-100.0
+#: R,,,0.4
+#: RE,,,P P --> JET(S) < CHARGED X > X
+#: SQRT(S) [GeV],,,7000.0
+#: ,,,AWAY
+SUM(PT) [GEV],SUM(PT) [GEV] LOW,SUM(PT) [GEV] HIGH,(1/N(C=EVENTS)*D(N)/DSUM(PT) [GEV**-1],stat +,stat -,sys +,sys -
+2.0,0.0,4.0,4.4092e-06,2.03779e-06,-2.03779e-06,3.55895e-07,-3.55895e-07
+6.5,4.0,9.0,4.6596e-06,1.2004e-06,-1.2004e-06,4.48155e-07,-4.48155e-07
+12.0,9.0,15.0,2.4371e-06,8.91211e-07,-8.91211e-07,4.3366e-07,-4.3366e-07
+18.0,15.0,21.0,3.0225e-06,1.04743e-06,-1.04743e-06,3.19443e-07,-3.19443e-07
+24.0,21.0,27.0,3.1259e-06,9.78093e-07,-9.78093e-07,6.61221e-07,-6.61221e-07
+30.0,27.0,33.0,2.837e-06,9.34326e-07,-9.34326e-07,5.75545e-07,-5.75545e-07
+
+#: PT(C=JET) [GeV],,,50.0-100.0
+#: R,,,0.4
+#: RE,,,P P --> JET(S) < CHARGED X > X
+#: SQRT(S) [GeV],,,7000.0
+#: ,,,TRANSVERSE
+SUM(PT) [GEV],SUM(PT) [GEV] LOW,SUM(PT) [GEV] HIGH,(1/N(C=EVENTS)*D(N)/DSUM(PT) [GEV**-1],stat +,stat -,sys +,sys -
+2.0,0.0,4.0,1.44543e-05,3.21696e-06,-3.21696e-06,1.6002e-06,-1.6002e-06
+6.5,4.0,9.0,1.1662e-05,1.97428e-06,-1.97428e-06,9.23755e-07,-9.23755e-07
+12.0,9.0,15.0,7.5089e-06,1.64292e-06,-1.64292e-06,5.39172e-07,-5.39172e-07
+18.0,15.0,21.0,2.713e-06,9.68013e-07,-9.68013e-07,4.35229e-07,-4.35229e-07
+24.0,21.0,27.0,-,0,0,0,0
+30.0,27.0,33.0,-,0,0,0,0
+

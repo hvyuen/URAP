@@ -1,0 +1,18 @@
+#: table_doi: 10.17182/hepdata.90831.v1/t22
+#: name: table no 22
+#: description: transverse region : low thrust ($T<0.75$) Mean charged particle multiplicity ($\langle N_{ch} \rangle \pm stat. \pm syst.det. \pm syst.gen.$)
+
+#: data_file: table_no_22.yaml
+#: keyword reactions: P P --> Z0 --> MU+MU- | Drell-Yan
+#: keyword cmenergies: 13000
+#: keyword observables: Underyling event
+Bin limits  [GeV],Bin limits  [GeV] LOW,Bin limits  [GeV] HIGH,Arithmetic mean charged-particle multiplcity / $\delta\eta\delta\phi$,statistical uncertainty +,statistical uncertainty -,detector related uncertainty +,detector related uncertainty -,generator related uncertainty +,generator related uncertainty -
+5.0,0,10.0,1.2072,0.0013,-0.0013,0.0244,-0.0244,0.0059,-0.0059
+15.0,10.0,20.0,1.3316,0.0019,-0.0019,0.0243,-0.0243,0.0053,-0.0053
+30.0,20.0,40.0,1.4889,0.0023,-0.0023,0.0248,-0.0248,0.0062,-0.0062
+50.0,40.0,60.0,1.667,0.005,-0.005,0.028,-0.028,0.004,-0.004
+70.0,60.0,80.0,1.794,0.009,-0.009,0.029,-0.029,0.001,-0.001
+100.0,80.0,120.0,1.927,0.012,-0.012,0.032,-0.032,0.002,-0.002
+160.0,120.0,200.0,2.087,0.021,-0.021,0.029,-0.029,0.012,-0.012
+350.0,200.0,500.0,2.44,0.065,-0.065,0.062,-0.062,0.053,-0.053
+

@@ -1,0 +1,29 @@
+#: table_doi: 10.17182/hepdata.70547.v2/t6
+#: name: Table 6
+#: description: Towards charged multiplicity density vs Z-boson pT, Born leptons : Statistical and systematic errors are added in quadrature.
+
+#: data_file: Table6.yaml
+#: keyword reactions: P P --> CHARGED Z < E+ E- + MU+ MU- > X
+#: keyword observables: D2N/DETARAP/DPHI
+#: keyword phrases: Inclusive | Proton-Proton Scattering | Muon production | Electron production
+#: - Born leptons,,,
+#: - Toward region,,,
+#: ABS(ETARAP(P=3)),,,< 2.5
+#: PT(P=3) [GEV],,,> 0.5
+PT(P=4) [GEV],PT(P=4) [GEV] LOW,PT(P=4) [GEV] HIGH,AVERAGE(N(P=3)/DELTA(ETARAP)/DELTA(DELTA(PHI))),error +,error -
+2.5,0.0,5.0,0.7039509,0.01189378,-0.01189378
+7.5,5.0,10.0,0.7371623,0.01220394,-0.01220394
+12.5,10.0,15.0,0.7595656,0.01224059,-0.01224059
+17.5,15.0,20.0,0.7855451,0.01265874,-0.01265874
+22.5,20.0,25.0,0.8022794,0.01301074,-0.01301074
+27.5,25.0,30.0,0.8147102,0.01355699,-0.01355699
+32.5,30.0,35.0,0.8316814,0.01405208,-0.01405208
+37.5,35.0,40.0,0.8393904,0.01468172,-0.01468172
+45.0,40.0,50.0,0.8546939,0.01491513,-0.01491513
+55.0,50.0,60.0,0.865211,0.01543728,-0.01543728
+70.0,60.0,80.0,0.8775352,0.01520524,-0.01520524
+95.0,80.0,110.0,0.9021897,0.01590888,-0.01590888
+135.0,110.0,160.0,0.9452533,0.01713971,-0.01713971
+185.0,160.0,210.0,0.9366481,0.02308605,-0.02308605
+355.0,210.0,500.0,0.9721625,0.02971584,-0.02971584
+

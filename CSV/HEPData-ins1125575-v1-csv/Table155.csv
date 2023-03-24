@@ -1,0 +1,41 @@
+#: table_doi: 10.17182/hepdata.58995.v1/t155
+#: name: Table 155
+#: description: Distribution of the variable SUM(PT) in the AWAY and TRANSVERSE regions for R=0.8 and jet PT in the range 50 to 100 GeV.
+
+#: data_file: Table155.yaml
+#: keyword reactions: P P --> JET(S) X | P P --> CHARGED X
+#: keyword observables: DN/DSUM(PT)
+#: keyword phrases: Inclusive | Single Differential Distribution | Proton-Proton Scattering | Jet Production
+#: keyword cmenergies: 7000.0
+#: PT(C=JET) [GeV],,,50.0-100.0
+#: R,,,0.8
+#: RE,,,P P --> JET(S) < CHARGED X > X
+#: SQRT(S) [GeV],,,7000.0
+#: ,,,AWAY
+SUM(PT) [GEV],SUM(PT) [GEV] LOW,SUM(PT) [GEV] HIGH,(1/N(C=EVENTS)*D(N)/DSUM(PT) [GEV**-1],stat +,stat -,sys +,sys -
+2.0,0.0,4.0,3.1112e-06,1.1851e-06,-1.1851e-06,3.37919e-07,-3.37919e-07
+6.5,4.0,9.0,3.4407e-06,7.16591e-07,-7.16591e-07,4.04025e-07,-4.04025e-07
+12.0,9.0,15.0,1.9416e-06,5.43214e-07,-5.43214e-07,2.54564e-07,-2.54564e-07
+18.0,15.0,21.0,2.102e-06,5.62861e-07,-5.62861e-07,4.18178e-07,-4.18178e-07
+24.0,21.0,27.0,2.4765e-06,6.35554e-07,-6.35554e-07,5.57179e-07,-5.57179e-07
+30.0,27.0,33.0,2.2787e-06,6.18377e-07,-6.18377e-07,5.41643e-07,-5.41643e-07
+36.0,33.0,39.0,1.8941e-06,5.54501e-07,-5.54501e-07,6.04188e-07,-6.04188e-07
+42.0,39.0,45.0,1.9601e-06,5.44133e-07,-5.44133e-07,6.60904e-07,-6.60904e-07
+50.0,45.0,55.0,1.5399e-06,3.674e-07,-3.674e-07,5.8532e-07,-5.8532e-07
+
+#: PT(C=JET) [GeV],,,50.0-100.0
+#: R,,,0.8
+#: RE,,,P P --> JET(S) < CHARGED X > X
+#: SQRT(S) [GeV],,,7000.0
+#: ,,,TRANSVERSE
+SUM(PT) [GEV],SUM(PT) [GEV] LOW,SUM(PT) [GEV] HIGH,(1/N(C=EVENTS)*D(N)/DSUM(PT) [GEV**-1],stat +,stat -,sys +,sys -
+2.0,0.0,4.0,1.00815e-05,1.91363e-06,-1.91363e-06,8.04491e-07,-8.04491e-07
+6.5,4.0,9.0,9.1528e-06,1.24129e-06,-1.24129e-06,8.37771e-07,-8.37771e-07
+12.0,9.0,15.0,5.3623e-06,9.23833e-07,-9.23833e-07,5.0163e-07,-5.0163e-07
+18.0,15.0,21.0,1.8204e-06,5.34609e-07,-5.34609e-07,3.43794e-07,-3.43794e-07
+24.0,21.0,27.0,-,0,0,0,0
+30.0,27.0,33.0,-,0,0,0,0
+36.0,33.0,39.0,-,0,0,0,0
+42.0,39.0,45.0,-,0,0,0,0
+50.0,45.0,55.0,-,0,0,0,0
+

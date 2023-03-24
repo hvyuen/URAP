@@ -1,0 +1,22 @@
+#: table_doi: 10.17182/hepdata.90831.v1/t312
+#: name: table no 312
+#: description: $\frac{1}{N_{ev}} \frac{dN_{ev}}{d\Sigma p_{t}/\delta\eta\delta\phi}\pm stat.\pm syst.gen.\pm syst.det.[GeV^{-1}]$,low thrust(T<0.75),transmax region,$20GeV<p_{T}^{Z}<40GeV$
+
+#: data_file: table_no_312.yaml
+#: keyword reactions: P P --> Z0 --> MU+MU- | Drell-Yan
+#: keyword cmenergies: 13000
+#: keyword observables: Underyling event
+Bin limits$\Sigma p_{T}/(\delta\eta\delta\phi)$ [GeV],Bin limits$\Sigma p_{T}/(\delta\eta\delta\phi)$ [GeV] LOW,Bin limits$\Sigma p_{T}/(\delta\eta\delta\phi)$ [GeV] HIGH,$1/N_{ev} dN_{ev}/d(\Sigma p_{T}/\delta\eta\delta\phi)$ [$GeV^{-1}$],statistical uncertainty +,statistical uncertainty -,detector related uncertainty +,detector related uncertainty -,generator related uncertainty +,generator related uncertainty -
+0.145,0,0.29,0.3512,0.0038,-0.0038,0.0587,-0.0587,0.013,-0.013
+0.48,0.29,0.67,0.4954,0.0038,-0.0038,0.033,-0.033,0.0071,-0.0071
+0.8600000000000001,0.67,1.05,0.471,0.0038,-0.0038,0.0063,-0.0063,0.0044,-0.0044
+1.24,1.05,1.43,0.3587,0.0029,-0.0029,0.0204,-0.0204,0.0031,-0.0031
+1.62,1.43,1.81,0.2614,0.0024,-0.0024,0.0205,-0.0205,0.0035,-0.0035
+2.005,1.81,2.2,0.1827,0.0019,-0.0019,0.0136,-0.0136,0.0036,-0.0036
+2.39,2.2,2.58,0.1264,0.0016,-0.0016,0.0091,-0.0091,0.0023,-0.0023
+2.77,2.58,2.96,0.0925,0.0013,-0.0013,0.0061,-0.0061,0.0018,-0.0018
+3.15,2.96,3.34,0.0676,0.0012,-0.0012,0.0032,-0.0032,0.0014,-0.0014
+3.5300000000000002,3.34,3.72,0.05122,0.00094,-0.00094,0.00294,-0.00294,0.00147,-0.00147
+4.2,3.72,4.68,0.03483,0.00062,-0.00062,0.00085,-0.00085,0.00055,-0.00055
+5.0600000000000005,4.68,5.44,0.02282,0.00056,-0.00056,0.00047,-0.00047,0.00061,-0.00061
+

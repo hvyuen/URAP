@@ -1,0 +1,23 @@
+#: table_doi: 10.17182/hepdata.68072.v1/t10
+#: name: Table 10
+#: description: Towards $+$ transverse $N_\text{chg}$ density vs $m_{\mu\mu}$, $p_\perp^{\mu\mu} < 5$ GeV.
+
+#: data_file: Table10.yaml
+#: keyword reactions: P P --> CHARGED MU+ MU- X
+#: keyword observables: D2N/DETARAP/DPHI
+#: keyword phrases: Inclusive | Double Differential Distribution | Azimuthal Angular Dependence | Proton-Proton Scattering | Muon production
+#: keyword cmenergies: 7000.0
+#: RE,,,P P --> CHARGED MU+ MU- X
+#: SQRT(S) [GeV],,,7000.0
+$m_{\mu\mu}$ [GeV],$m_{\mu\mu}$ [GeV] LOW,$m_{\mu\mu}$ [GeV] HIGH,$\langle\mathrm{d}^2 N_\text{chg}/\mathrm{d}\eta\mathrm{d}\phi\rangle$,error +,error -
+45.0,40.0,50.0,0.70405,0.0131944,-0.0131944
+55.0,50.0,60.0,0.71335,0.0127464,-0.0127464
+65.0,60.0,70.0,0.7083,0.0124717,-0.0124717
+75.0,70.0,80.0,0.7357,0.0117393,-0.0117393
+85.0,80.0,90.0,0.71465,0.00981098,-0.00981098
+95.0,90.0,100.0,0.71105,0.0093588,-0.0093588
+105.0,100.0,110.0,0.70305,0.0112106,-0.0112106
+115.0,110.0,120.0,0.7295,0.0156992,-0.0156992
+125.0,120.0,130.0,0.72585,0.0209244,-0.0209244
+135.0,130.0,140.0,0.69915,0.0251096,-0.0251096
+

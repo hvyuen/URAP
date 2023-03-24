@@ -1,0 +1,30 @@
+#: table_doi: 10.17182/hepdata.80167.v1/t2
+#: name: Table 2
+#: description: Unfolded distributions of particle density in Z events, as a function of $p_{T}^{\mu\mu}$ in the transverse ($60^{\circ} <\Delta\phi< 120^{\circ}$) region. Error bars represent the statistical and systematic uncertainties added in quadrature.
+#: data_file: systematics_nchg_ptmm_trans_CMS_13TeV.yaml
+#: keyword reactions: $pp \rightarrow Z + X \rightarrow \mu^{+}\mu^{-} + X$
+#: keyword observables: particle density
+#: keyword cmenergies: 13000.0
+#: $M_{\mu\mu} (GeV)$,,,81-101
+#: charged particle $|\eta|$,,,< 2
+#: charged particle $p_{T}$ (GeV},,,> 0.5
+#: SQRT(S) [GeV],,,13000.0
+dimuon pT (GeV),dimuon pT (GeV) LOW,dimuon pT (GeV) HIGH,$1/[\Delta\eta\Delta(\Delta\phi)] < N_{ch} > [rad^{-1}]$,error +,error -
+2.5,0.0,5.0,0.915,0.05,-0.05
+7.5,5.0,10.0,0.977,0.053,-0.053
+12.5,10.0,15.0,1.03,0.057,-0.057
+17.5,15.0,20.0,1.07,0.059,-0.059
+22.5,20.0,25.0,1.1,0.064,-0.064
+27.5,25.0,30.0,1.11,0.064,-0.064
+32.5,30.0,35.0,1.14,0.066,-0.066
+37.5,35.0,40.0,1.17,0.071,-0.071
+42.5,40.0,45.0,1.17,0.068,-0.068
+47.5,45.0,50.0,1.19,0.075,-0.075
+52.5,50.0,55.0,1.22,0.071,-0.071
+57.5,55.0,60.0,1.21,0.072,-0.072
+62.5,60.0,65.0,1.23,0.075,-0.075
+67.5,65.0,70.0,1.24,0.075,-0.075
+75.0,70.0,80.0,1.25,0.078,-0.078
+85.0,80.0,90.0,1.27,0.071,-0.071
+95.0,90.0,100.0,1.27,0.07,-0.07
+

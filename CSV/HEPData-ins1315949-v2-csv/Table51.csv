@@ -1,0 +1,29 @@
+#: table_doi: 10.17182/hepdata.70547.v2/t51
+#: name: Table 51
+#: description: Transverse <mean pT(charged)> vs charged multiplicity, Born leptons : Statistical and systematic errors are added in quadrature.
+
+#: data_file: Table63.yaml
+#: keyword reactions: P P --> CHARGED Z < E+ E- + MU+ MU- > X
+#: keyword observables: PT
+#: keyword phrases: Inclusive | Proton-Proton Scattering | Muon production | Electron production
+#: - Born leptons,,,
+#: - Transverse region,,,
+#: ABS(ETARAP(P=3)),,,< 2.5
+#: PT(P=3) [GEV],,,> 0.5
+N(P=3),N(P=3) LOW,N(P=3) HIGH,AVERAGE PT(P=3) [GEV],error +,error -
+1.0,0.5,1.5,0.927677,0.02071583,-0.02071583
+2.0,1.5,2.5,0.9716948,0.02006162,-0.02006162
+3.0,2.5,3.5,1.002576,0.01738769,-0.01738769
+4.0,3.5,4.5,1.023254,0.01456436,-0.01456436
+5.0,4.5,5.5,1.044711,0.01220774,-0.01220774
+6.0,5.5,6.5,1.06012,0.01078473,-0.01078473
+7.0,6.5,7.5,1.074748,0.01019351,-0.01019351
+8.0,7.5,8.5,1.088777,0.01073906,-0.01073906
+9.0,8.5,9.5,1.099335,0.01245744,-0.01245744
+10.0,9.5,10.5,1.112079,0.01527784,-0.01527784
+11.5,10.5,12.5,1.129839,0.01666076,-0.01666076
+13.75,12.5,15.0,1.157967,0.01800426,-0.01800426
+17.5,15.0,20.0,1.195607,0.01924453,-0.01924453
+25.0,20.0,30.0,1.276729,0.02101415,-0.02101415
+40.0,30.0,50.0,1.440134,0.02436637,-0.02436637
+

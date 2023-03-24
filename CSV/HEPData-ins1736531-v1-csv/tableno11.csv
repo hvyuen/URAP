@@ -1,0 +1,18 @@
+#: table_doi: 10.17182/hepdata.90831.v1/t11
+#: name: table no 11
+#: description: Figure 10b,  mean meanPt toward, toward region : Mean of arithmetic mean of transverse momenta ($\langle mean p_{T} \rangle \pm stat. \pm syst.det.\pm syst.gen.[GeV]$) 
+
+#: data_file: table_no_11.yaml
+#: keyword reactions: P P --> Z0 --> MU+MU- | Drell-Yan
+#: keyword cmenergies: 13000
+#: keyword observables: Underyling event
+Bin limits  [GeV],Bin limits  [GeV] LOW,Bin limits  [GeV] HIGH,Arithmetic mean charged-particle mean transverse momentum [GeV],statistical uncertainty +,statistical uncertainty -,detector related uncertainty +,detector related uncertainty -,generator related uncertainty +,generator related uncertainty -
+5.0,0,10.0,1.0592,0.00053,-0.00053,0.00174,-0.00174,0.00306,-0.00306
+15.0,10.0,20.0,1.1004,0.00067,-0.00067,0.00247,-0.00247,0.00054,-0.00054
+30.0,20.0,40.0,1.1578,0.00094,-0.00094,0.00272,-0.00272,0.00927,-0.00927
+50.0,40.0,60.0,1.2243,0.0018,-0.0018,0.0035,-0.0035,0.0076,-0.0076
+70.0,60.0,80.0,1.2824,0.0031,-0.0031,0.0051,-0.0051,0.0117,-0.0117
+100.0,80.0,120.0,1.3148,0.0038,-0.0038,0.0061,-0.0061,0.0093,-0.0093
+160.0,120.0,200.0,1.375,0.0073,-0.0073,0.007,-0.007,0.0165,-0.0165
+350.0,200.0,500.0,1.487,0.018,-0.018,0.012,-0.012,0,0
+

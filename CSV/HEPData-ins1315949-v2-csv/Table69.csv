@@ -1,0 +1,29 @@
+#: table_doi: 10.17182/hepdata.70547.v2/t69
+#: name: Table 69
+#: description: Away scalar pT sum density vs Z-boson pT, Dressed leptons : Statistical and systematic errors are added in quadrature.
+
+#: data_file: Table81.yaml
+#: keyword reactions: P P --> CHARGED Z < E+ E- + MU+ MU- > X
+#: keyword observables: D2PT/DETARAP/DPHI
+#: keyword phrases: Inclusive | Proton-Proton Scattering | Muon production | Electron production
+#: - Away region,,,
+#: - Dressed leptons,,,
+#: ABS(ETARAP(P=3)),,,< 2.5
+#: PT(P=3) [GEV],,,> 0.5
+PT(P=4) [GEV],PT(P=4) [GEV] LOW,PT(P=4) [GEV] HIGH,AVERAGE(SUM(PT(P=3))/DELTA(ETARAP)/DELTA(DELTA(PHI))) [GEV],error +,error -
+2.5,0.0,5.0,0.8403854,0.01465605,-0.01465605
+7.5,5.0,10.0,1.056755,0.01678765,-0.01678765
+12.5,10.0,15.0,1.338251,0.01832908,-0.01832908
+17.5,15.0,20.0,1.638832,0.02253017,-0.02253017
+22.5,20.0,25.0,1.941948,0.02735281,-0.02735281
+27.5,25.0,30.0,2.258288,0.03053763,-0.03053763
+32.5,30.0,35.0,2.569787,0.03366785,-0.03366785
+37.5,35.0,40.0,2.891006,0.03986959,-0.03986959
+45.0,40.0,50.0,3.329548,0.04651313,-0.04651313
+55.0,50.0,60.0,3.936802,0.05356299,-0.05356299
+70.0,60.0,80.0,4.818508,0.05810954,-0.05810954
+95.0,80.0,110.0,6.280225,0.06973087,-0.06973087
+135.0,110.0,160.0,8.646983,0.08939488,-0.08939488
+185.0,160.0,210.0,11.71286,0.1316851,-0.1316851
+355.0,210.0,500.0,16.52388,0.2057053,-0.2057053
+

@@ -1,0 +1,29 @@
+#: table_doi: 10.17182/hepdata.70547.v2/t117
+#: name: Table 117
+#: description: Transverse <mean pT(charged)> vs charged multiplicity, dressed leptons : Statistical and systematic errors are added in quadrature.
+
+#: data_file: Table141.yaml
+#: keyword reactions: P P --> CHARGED Z < E+ E- + MU+ MU- > X
+#: keyword observables: PT
+#: keyword phrases: Inclusive | Proton-Proton Scattering | Muon production | Electron production
+#: - Dressed leptons,,,
+#: - Transverse region,,,
+#: ABS(ETARAP(P=3)),,,< 2.5
+#: PT(P=3) [GEV],,,> 0.5
+N(P=3),N(P=3) LOW,N(P=3) HIGH,AVERAGE PT(P=3) [GEV],error +,error -
+1.0,0.5,1.5,0.9275329,0.02326605,-0.02326605
+2.0,1.5,2.5,0.9718831,0.02248562,-0.02248562
+3.0,2.5,3.5,1.002219,0.01952969,-0.01952969
+4.0,3.5,4.5,1.022128,0.01643828,-0.01643828
+5.0,4.5,5.5,1.044456,0.01363317,-0.01363317
+6.0,5.5,6.5,1.05979,0.01197612,-0.01197612
+7.0,6.5,7.5,1.074542,0.01129475,-0.01129475
+8.0,7.5,8.5,1.088472,0.01195632,-0.01195632
+9.0,8.5,9.5,1.099251,0.01388372,-0.01388372
+10.0,9.5,10.5,1.111704,0.01717923,-0.01717923
+11.5,10.5,12.5,1.129822,0.01879421,-0.01879421
+13.75,12.5,15.0,1.157863,0.02028085,-0.02028085
+17.5,15.0,20.0,1.195669,0.02165568,-0.02165568
+25.0,20.0,30.0,1.276954,0.02361208,-0.02361208
+40.0,30.0,50.0,1.43175,0.02715076,-0.02715076
+

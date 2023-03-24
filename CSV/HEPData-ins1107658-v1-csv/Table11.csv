@@ -1,0 +1,23 @@
+#: table_doi: 10.17182/hepdata.68072.v1/t11
+#: name: Table 11
+#: description: Towards $+$ transverse $\sum p_\perp$ density vs $m_{\mu\mu}$, $p_\perp^{\mu\mu} < 5$ GeV.
+
+#: data_file: Table11.yaml
+#: keyword reactions: P P --> CHARGED MU+ MU- X
+#: keyword observables: D2PT/DETARAP/DPHI
+#: keyword phrases: Inclusive | Azimuthal Angular Dependence | Proton-Proton Scattering | Muon production
+#: keyword cmenergies: 7000.0
+#: RE,,,P P --> CHARGED MU+ MU- X
+#: SQRT(S) [GeV],,,7000.0
+$m_{\mu\mu}$ [GeV],$m_{\mu\mu}$ [GeV] LOW,$m_{\mu\mu}$ [GeV] HIGH,$\langle\mathrm{d}^2 \sum p_\perp/\mathrm{d}\eta\mathrm{d}\phi\rangle$ [GeV],error +,error -
+45.0,40.0,50.0,0.7619,0.0175762,-0.0175762
+55.0,50.0,60.0,0.75555,0.0162537,-0.0162537
+65.0,60.0,70.0,0.7602,0.0158008,-0.0158008
+75.0,70.0,80.0,0.79455,0.014659,-0.014659
+85.0,80.0,90.0,0.7604,0.0116178,-0.0116178
+95.0,90.0,100.0,0.75675,0.0107677,-0.0107677
+105.0,100.0,110.0,0.75365,0.0134591,-0.0134591
+115.0,110.0,120.0,0.77945,0.0191326,-0.0191326
+125.0,120.0,130.0,0.78145,0.0258618,-0.0258618
+135.0,130.0,140.0,0.73295,0.0296349,-0.0296349
+

@@ -1,0 +1,18 @@
+#: table_doi: 10.17182/hepdata.90831.v1/t30
+#: name: table no 30
+#: description: away region : low thrust ($T<0.75$) Mean of arithmetic mean of transverse momenta ($\langle mean p_{T} \rangle \pm stat. \pm syst.det.\pm syst.gen.[GeV]$) 
+
+#: data_file: table_no_30.yaml
+#: keyword reactions: P P --> Z0 --> MU+MU- | Drell-Yan
+#: keyword cmenergies: 13000
+#: keyword observables: Underyling event
+Bin limits  [GeV],Bin limits  [GeV] LOW,Bin limits  [GeV] HIGH,Arithmetic mean charged-particle mean transverse momentum [GeV],statistical uncertainty +,statistical uncertainty -,detector related uncertainty +,detector related uncertainty -,generator related uncertainty +,generator related uncertainty -
+5.0,0,10.0,1.0844,0.00055,-0.00055,0.00132,-0.00132,0.00225,-0.00225
+15.0,10.0,20.0,1.2047,0.0008,-0.0008,0.0022,-0.0022,0.0014,-0.0014
+30.0,20.0,40.0,1.3913,0.0013,-0.0013,0.0034,-0.0034,0.0036,-0.0036
+50.0,40.0,60.0,1.6367,0.0035,-0.0035,0.0055,-0.0055,0.0038,-0.0038
+70.0,60.0,80.0,1.8438,0.0069,-0.0069,0.0063,-0.0063,0.0122,-0.0122
+100.0,80.0,120.0,2.15,0.01,-0.01,0.01,-0.01,0.16,-0.16
+160.0,120.0,200.0,2.553,0.024,-0.024,0.034,-0.034,0.008,-0.008
+350.0,200.0,500.0,3.189,0.078,-0.078,0.065,-0.065,0.184,-0.184
+

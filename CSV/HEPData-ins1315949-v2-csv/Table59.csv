@@ -1,0 +1,28 @@
+#: table_doi: 10.17182/hepdata.70547.v2/t59
+#: name: Table 59
+#: description: Trans.diff. scalar pT sum density vs Z-boson pT, Born leptons : Statistical and systematic errors are added in quadrature.
+
+#: data_file: Table71.yaml
+#: keyword reactions: P P --> CHARGED Z < E+ E- + MU+ MU- > X
+#: keyword observables: D2PT/DETARAP/DPHI
+#: keyword phrases: Inclusive | Proton-Proton Scattering | Muon production | Electron production
+#: - Born leptons,,,
+#: ABS(ETARAP(P=3)),,,< 2.5
+#: PT(P=3) [GEV],,,> 0.5
+PT(P=4) [GEV],PT(P=4) [GEV] LOW,PT(P=4) [GEV] HIGH,AVERAGE(SUM(PT(P=3))/DELTA(ETARAP)/DELTA(DELTA(PHI))) [GEV],error +,error -
+2.5,0.0,5.0,0.4970885,0.01933357,-0.01933357
+7.5,5.0,10.0,0.557087,0.0207573,-0.0207573
+12.5,10.0,15.0,0.6219684,0.02327674,-0.02327674
+17.5,15.0,20.0,0.6850185,0.02709863,-0.02709863
+22.5,20.0,25.0,0.7518741,0.02677872,-0.02677872
+27.5,25.0,30.0,0.8052678,0.0275368,-0.0275368
+32.5,30.0,35.0,0.8935652,0.02901282,-0.02901282
+37.5,35.0,40.0,0.9391203,0.0288714,-0.0288714
+45.0,40.0,50.0,1.027077,0.03191168,-0.03191168
+55.0,50.0,60.0,1.134087,0.03499085,-0.03499085
+70.0,60.0,80.0,1.281551,0.03928149,-0.03928149
+95.0,80.0,110.0,1.496616,0.04878683,-0.04878683
+135.0,110.0,160.0,1.796317,0.06592295,-0.06592295
+185.0,160.0,210.0,2.276785,0.1402647,-0.1402647
+355.0,210.0,500.0,2.871747,0.2118666,-0.2118666
+

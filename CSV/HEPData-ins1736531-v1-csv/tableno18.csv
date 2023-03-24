@@ -1,0 +1,18 @@
+#: table_doi: 10.17182/hepdata.90831.v1/t18
+#: name: table no 18
+#: description: Figure 11c,  mean sumPt transmin low thrust, transmin region : low thrust ($T<0.75$) Mean sum of transverse momenta ($\langle \Sigma p_{T} \rangle \pm stat. \pm syst.det. \pm syst.gen.[GeV]$) 
+
+#: data_file: table_no_18.yaml
+#: keyword reactions: P P --> Z0 --> MU+MU- | Drell-Yan
+#: keyword cmenergies: 13000
+#: keyword observables: Underyling event
+Bin limits  [GeV],Bin limits  [GeV] LOW,Bin limits  [GeV] HIGH,Arithmetic mean charged-particle scalar sum of transverse momemtum / $\delta\eta\delta\phi$ [GeV],statistical uncertainty +,statistical uncertainty -,detector related uncertainty +,detector related uncertainty -,generator related uncertainty +,generator related uncertainty -
+5.0,0,10.0,0.9839,0.0018,-0.0018,0.023,-0.023,0.0124,-0.0124
+15.0,10.0,20.0,1.1223,0.0022,-0.0022,0.0231,-0.0231,0.0119,-0.0119
+30.0,20.0,40.0,1.3071,0.0029,-0.0029,0.0246,-0.0246,0.0131,-0.0131
+50.0,40.0,60.0,1.5286,0.0066,-0.0066,0.0283,-0.0283,0.0075,-0.0075
+70.0,60.0,80.0,1.701,0.013,-0.013,0.028,-0.028,0.012,-0.012
+100.0,80.0,120.0,1.897,0.019,-0.019,0.031,-0.031,0.002,-0.002
+160.0,120.0,200.0,2.22,0.04,-0.04,0.04,-0.04,0.02,-0.02
+350.0,200.0,500.0,2.59,0.12,-0.12,0.06,-0.06,0.14,-0.14
+

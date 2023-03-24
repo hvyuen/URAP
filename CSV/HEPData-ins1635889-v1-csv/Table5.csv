@@ -1,0 +1,30 @@
+#: table_doi: 10.17182/hepdata.80167.v1/t5
+#: name: Table 5
+#: description: Unfolded distributions of $\Sigma p_{T}$ density in Z events, as a function of $p_{T}^{\mu\mu}$ in the transverse ($60^{\circ} <\Delta\phi< 120^{\circ}$) region. Error bars represent the statistical and systematic uncertainties added in quadrature.
+#: data_file: systematics_ptsum_ptmm_trans_CMS_13TeV.yaml
+#: keyword reactions: $pp \rightarrow Z + X \rightarrow \mu^{+}\mu^{-} + X$
+#: keyword observables: $\Sigma p_{T}$ density
+#: keyword cmenergies: 13000.0
+#: $M_{\mu\mu} (GeV)$,,,81-101
+#: charged particle $|\eta|$,,,< 2
+#: charged particle $p_{T}$ (GeV},,,> 0.5
+#: SQRT(S) [GeV],,,13000.0
+dimuon pT (GeV),dimuon pT (GeV) LOW,dimuon pT (GeV) HIGH,$1/[\Delta\eta\Delta(\Delta\phi)] < \Sigma p_T > [GeV/rad]$,error +,error -
+2.5,0.0,5.0,1,0.058,-0.058
+7.5,5.0,10.0,1.11,0.064,-0.064
+12.5,10.0,15.0,1.21,0.073,-0.073
+17.5,15.0,20.0,1.29,0.082,-0.082
+22.5,20.0,25.0,1.36,0.089,-0.089
+27.5,25.0,30.0,1.42,0.089,-0.089
+32.5,30.0,35.0,1.5,0.097,-0.097
+37.5,35.0,40.0,1.58,0.119,-0.119
+42.5,40.0,45.0,1.6,0.103,-0.103
+47.5,45.0,50.0,1.65,0.111,-0.111
+52.5,50.0,55.0,1.78,0.109,-0.109
+57.5,55.0,60.0,1.75,0.125,-0.125
+62.5,60.0,65.0,1.83,0.131,-0.131
+67.5,65.0,70.0,1.86,0.129,-0.129
+75.0,70.0,80.0,1.94,0.13,-0.13
+85.0,80.0,90.0,2.01,0.154,-0.154
+95.0,90.0,100.0,2.03,0.108,-0.108
+

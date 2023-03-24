@@ -1,0 +1,28 @@
+#: table_doi: 10.17182/hepdata.70547.v2/t126
+#: name: Table 126
+#: description: Trans.diff. charged multiplicity density vs Z-boson pT, Dressed leptons : Statistical and systematic errors are added in quadrature.
+
+#: data_file: Table150.yaml
+#: keyword reactions: P P --> CHARGED Z < E+ E- + MU+ MU- > X
+#: keyword observables: D2N/DETARAP/DPHI
+#: keyword phrases: Inclusive | Proton-Proton Scattering | Muon production | Electron production
+#: - Dressed leptons,,,
+#: ABS(ETARAP(P=3)),,,< 2.5
+#: PT(P=3) [GEV],,,> 0.5
+PT(P=4) [GEV],PT(P=4) [GEV] LOW,PT(P=4) [GEV] HIGH,AVERAGE(N(P=3)/DELTA(ETARAP)/DELTA(DELTA(PHI))),error +,error -
+2.5,0.0,5.0,0.3827412,0.01068539,-0.01068539
+7.5,5.0,10.0,0.4058939,0.01110069,-0.01110069
+12.5,10.0,15.0,0.4196094,0.01088495,-0.01088495
+17.5,15.0,20.0,0.4348886,0.01055633,-0.01055633
+22.5,20.0,25.0,0.452152,0.01000073,-0.01000073
+27.5,25.0,30.0,0.4627346,0.009471644,-0.009471644
+32.5,30.0,35.0,0.4813493,0.008976945,-0.008976945
+37.5,35.0,40.0,0.4934095,0.009954132,-0.009954132
+45.0,40.0,50.0,0.5159708,0.008517346,-0.008517346
+55.0,50.0,60.0,0.5340114,0.009304971,-0.009304971
+70.0,60.0,80.0,0.5716629,0.00944728,-0.00944728
+95.0,80.0,110.0,0.5934364,0.009815388,-0.009815388
+135.0,110.0,160.0,0.6506052,0.01045122,-0.01045122
+185.0,160.0,210.0,0.7155168,0.03013516,-0.03013516
+355.0,210.0,500.0,0.8034453,0.04035395,-0.04035395
+

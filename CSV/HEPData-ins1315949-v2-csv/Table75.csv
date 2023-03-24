@@ -1,0 +1,29 @@
+#: table_doi: 10.17182/hepdata.70547.v2/t75
+#: name: Table 75
+#: description: Trans.min. charged multiplicity density vs Z-boson pT, Dressed leptons : Statistical and systematic errors are added in quadrature.
+
+#: data_file: Table87.yaml
+#: keyword reactions: P P --> CHARGED Z < E+ E- + MU+ MU- > X
+#: keyword observables: D2N/DETARAP/DPHI
+#: keyword phrases: Inclusive | Proton-Proton Scattering | Muon production | Electron production
+#: - Dressed leptons,,,
+#: - Trans-min region,,,
+#: ABS(ETARAP(P=3)),,,< 2.5
+#: PT(P=3) [GEV],,,> 0.5
+PT(P=4) [GEV],PT(P=4) [GEV] LOW,PT(P=4) [GEV] HIGH,AVERAGE(N(P=3)/DELTA(ETARAP)/DELTA(DELTA(PHI))),error +,error -
+2.5,0.0,5.0,0.5337681,0.01202141,-0.01202141
+7.5,5.0,10.0,0.5801001,0.01259555,-0.01259555
+12.5,10.0,15.0,0.6188028,0.012582,-0.012582
+17.5,15.0,20.0,0.6463637,0.01238652,-0.01238652
+22.5,20.0,25.0,0.6699263,0.01228746,-0.01228746
+27.5,25.0,30.0,0.6789164,0.01205946,-0.01205946
+32.5,30.0,35.0,0.6970838,0.01250822,-0.01250822
+37.5,35.0,40.0,0.6968221,0.01267109,-0.01267109
+45.0,40.0,50.0,0.7124777,0.01297741,-0.01297741
+55.0,50.0,60.0,0.7269812,0.01305951,-0.01305951
+70.0,60.0,80.0,0.7343228,0.01254822,-0.01254822
+95.0,80.0,110.0,0.7575178,0.01327787,-0.01327787
+135.0,110.0,160.0,0.7815475,0.01459518,-0.01459518
+185.0,160.0,210.0,0.7869637,0.02168357,-0.02168357
+355.0,210.0,500.0,0.7760059,0.03056265,-0.03056265
+
