@@ -7,10 +7,10 @@ import requests
 import tarfile
 
 # converts a CSV file into an HDF5 dataset
-def csv_to_hdf5(csv_files, hdf_group):
+def csv_to_hdf5(csv_files, hdf_group, rivet_ID, csv_col_num):
     row_counter = hdf_group["main"].attrs.__getitem__("row_counter")
-    experiment_name = "/CDF_2010_S8591881_DY/d"
-    row_len = 6
+    experiment_name = "/" + rivet_ID + "/d"
+    row_len = int(csv_col_num)
     for counter in range(len(csv_files)):
         # the first pass through the CSV file is to count the number of rows to reshape the h5 file by
         print(counter)
@@ -143,6 +143,18 @@ def main():
     parser.add_argument(
         'filepath',
         help = 'the folder where we are making the h5 files')
+    parser.add_argument(
+        'h5_filename',
+        help = 'h5 filename')
+    parser.add_argument(
+        'csv_dir',
+        help = 'the folder with the CSVs')
+    parser.add_argument(
+        'rivet_ID',
+        help = 'experiment rivet ID')
+    parser.add_argument(
+        'csv_col_num',
+        help = 'numbers of columns in CSV')
     '''
     parser.add_argument(
         'uncertainty_breakdown',
@@ -153,13 +165,13 @@ def main():
     response = requests.get(args.url, stream=True)
     file = tarfile.open(fileobj=response.raw, mode="r|gz")
     file.extractall(path=args.filepath)
-    hdf5_file = h5py.File("master.h5", 'r+')
-    os.chdir(args.filepath + "/" + "HEPData-ins849042-v1-csv")
+    hdf5_file = h5py.File(args.h5_filename, 'r+')
+    os.chdir(args.filepath + "/" + args.csv_dir)
     
     csv_files = os.listdir(os.getcwd())
     csv_files = [os.path.join(os.getcwd(), f) for f in csv_files]
     csv_files.sort(key=lambda f: int(''.join(filter(str.isdigit, f))))
-    csv_to_hdf5(csv_files, hdf5_file)
+    csv_to_hdf5(csv_files, hdf5_file, args.rivet_ID, args.csv_col_num)
 
 if __name__ == "__main__":
     main()
