@@ -129,7 +129,7 @@ def main():
     parser = argparse.ArgumentParser(description = 'Convert yoda file to HDF5')
     parser.add_argument(
         'filepath',
-        help = 'the folder where we are making the h5 files')
+        help = 'the folder where we are making the h5 file')
     args = parser.parse_args()
     readInputDataYODA(args.filepath, parFileName="used_parameters", storeAsH5="zmumu.h5")
 
